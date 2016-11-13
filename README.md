@@ -2,11 +2,11 @@
 
 
 
-###The Script Code
+##The Script Code
 
 The script have been carried on with four functions which allows transform the messy data to tidy data as well as . 
 
-#####Libraries
+####Libraries
 
 First one, libraries like `plyr`, `dplyr` and `tidyr` must be installed to run the script. This packages are needed to manipulate, split, combain, merge, and join a set data which we want.
 
