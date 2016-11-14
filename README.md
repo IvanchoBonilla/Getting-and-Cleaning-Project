@@ -31,4 +31,17 @@ These information were upload to R through the `read.table()` function due to th
 
 By means of dataset created on the step above is where the '`dplyr`'s package functions begins to be used. In this fuction all measurements where the mean() and std() was calculed, was filtered through the `select()` and `contains()` function. 
 
-In this step, 581 initial measurements that had the data set have only 33 columns for each filtered function. Here, to disting this filtered function the function `mutate()` was used to 
+In this step, from 581 initial measurements that had the data set just 33 columns were filtered through this function. Here, to disting this filtered parameter the function `mutate()` was used to insert a new column.
+
+
+
+###Function 3 - Descriptive activity names
+
+In this step, the fuction `join()` was used which the `id Activity` was the commun variable to join the data set created before and the variables name file that was upload initially.
+
+###Function 4 - Descriptive variable names
+
+As the column names are exactly in the same order, it can be changed in this way by means of fuction `colnames()`
+
+###Function 5 - Independent tidy data set
+
