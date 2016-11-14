@@ -1,0 +1,58 @@
+#Dictionary
+
+Subject
+      Subject who run the activity
+            1-30
+
+Activity
+      Activity which was take the data
+            1. WALKING
+            2. WALKING_UPSTAIRS
+            3. WALKING_DOWNSTAIRS
+            4. SITTING
+            5. STANDING
+            6. LAYING
+
+Variables
+      Variables taked by means of smartphone
+            1. body_acceleration_on_X_axis_in_time_domain
+            2. body_acceleration_on_Y_axis_in_time_domain
+            3. body_acceleration_on_Z_axis_in_time_domain
+            4. gravity_acceleration_on_X_axis_in_time_domain
+            5. gravity_acceleration_on_Y_axis_in_time_domain
+            6. gravity_acceleration_on_Z_axis_in_time_domain
+            7. jerk_of_the_body_acceleration_on_X_axis_in_time_domain
+            8. jerk_of_the_body_acceleration_on_Y_axis_in_time_domain
+            9. jerk_of_the_body_acceleration_on_Z_axis_in_time_domain
+            10. body_angular_velocity_on_X_axis_in_time_domain
+            11. body_angular_velocity_on_Y_axis_in_time_domain
+            12. body_angular_velocity_on_Z_axis_in_time_domain
+            13. jerk_of_the_body_angular_velocity_on_X_axis_in_time_domain
+            14. jerk_of_the_body_angular_velocity_on_Y_axis_in_time_domain
+            15. jerk_of_the_body_angular_velocity_on_Z_axis_in_time_domain
+            16. Euclidean_norm_to_body_acceleration_in_time_domain
+            17. Euclidean_norm_to_gravity_acceleration_in_time_domain
+            18. Euclidean_norm_to_jerk_of_the_body_acceleration_in_time_domain
+            19. Euclidean_norm_to_body_angular_velocity_in_time_domain
+            20. Euclidean_norm_to_jerk_of_the_body_angular_velocity_in_time_domain
+            21. body_acceleration_on_X_axis_in_frequency_domain
+            22. body_acceleration_on_Y_axis_in_frequency_domain
+            23. body_acceleration_on_Z_axis_in_frequency_domain
+            24. jerk_of_the_body_acceleration_on_X_axis_in_frequency_domain
+            25. jerk_of_the_body_acceleration_on_Y_axis_in_frequency_domain
+            26. jerk_of_the_body_acceleration_on_Z_axis_in_frequency_domain
+            27. body_angular_velocity_on_X_axis_in_frequency_domain
+            28. body_angular_velocity_on_Y_axis_in_frequency_domain
+            29. body_angular_velocity_on_Z_axis_in_frequency_domain
+            30. Euclidean_norm_to_body_acceleration_in_frequency_domain
+            31. Euclidean_norm_to_jerk_of_the_body_acceleration_in_frequency_domain
+            32. Euclidean_norm_to_body_angular_velocity_in_frequency_domain
+            33. Euclidean_norm_to_jerk_of_the_body_angular_velocity_in_frequency_domain
+        
+StandarDerivation
+        Average of every measurement
+              -1:1
+
+Mean
+        Average of every measurement
+              -1:1
