@@ -6,11 +6,11 @@
 
 The script have been carried on with four functions which allows transform the messy data to tidy data as well as . 
 
-####Libraries
+###Libraries
 
 First one, libraries like `plyr`, `dplyr` and `tidyr` must be installed to run the script. This packages are needed to manipulate, split, combain, merge, and join a set data which we want.
 
-###Function N.1 - Merge the test and training data
+###Function 1 - Merge the test and training data
 
 In this function, all information described in the "readme.txt" to determine the information needed to upload for the task that was asked. In the folder "UCI HAR Dataset' are located the test and train dataset as well as the names of every variable, subject, activity and names of each activity set and for each dataset.
 
@@ -24,3 +24,11 @@ This files are named like this:
 	6. activity train dataset - `y_train.txt`
 	7. variables name - `features.txt`
 	8. activities description - `activity_labels.txt`
+
+These information were upload to R through the `read.table()` function due to the information are in txt extencion. Next, it was merged the test and train dataset by means of `bind_col()` function to creating just one dataset.
+
+###Function 2 - Extracts only the measurements mean and standard derivation
+
+By means of dataset created on the step above is where the '`dplyr`'s package functions begins to be used. In this fuction all measurements where the mean() and std() was calculed, was filtered through the `select()` and `contains()` function. 
+
+In this step, 581 initial measurements that had the data set have only 33 columns for each filtered function. Here, to disting this filtered function the function `mutate()` was used to 
