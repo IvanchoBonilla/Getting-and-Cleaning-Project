@@ -29,11 +29,9 @@ These information were upload to R through the `read.table()` function due to th
 
 ###Function 2 - Extracts only the measurements mean and standard derivation
 
-By means of dataset created on the step above is where the '`dplyr`'s package functions begins to be used. In this fuction all measurements where the mean() and std() was calculed, was filtered through the `select()` and `contains()` function. 
+By means of dataset created on the step above is where the `dplyr`'s package functions begins to be used. In this fuction all measurements where the mean() and std() was calculed, was filtered through the `select()` and `contains()` function. 
 
 In this step, from 581 initial measurements that had the data set just 33 columns were filtered through this function. Here, to disting this filtered parameter the function `mutate()` was used to insert a new column.
-
-
 
 ###Function 3 - Descriptive activity names
 
@@ -45,3 +43,6 @@ As the column names are exactly in the same order, it can be changed in this way
 
 ###Function 5 - Independent tidy data set
 
+Finally, fuctions like `group_by()`, `summarize()` and `spread()` are used to created a tidy data in which contains the average of each variable for each activity and each subject.
+
+This data set has the structure mentioned in the paper wrote by Hadly Wickham.
